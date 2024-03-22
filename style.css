@@ -1,0 +1,31 @@
+#cabecalho {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(246, 8, 246);
+    width: 50vw;
+}
+
+#corpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    background-color: rgba(108, 114, 134, 0.735);
+}
+
+img {
+    width: 5vw;
+    height: 26vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#icon {
+    width: 1vw;
+    height: 2vh;
+}
