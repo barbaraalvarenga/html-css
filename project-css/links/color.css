@@ -1,0 +1,55 @@
+header {
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: darkgray 5px solid;
+    background: rgb(227, 227, 227);
+    background: linear-gradient(90deg, rgba(227, 227, 227, 1) 1%, rgba(169, 151, 222, 1) 24%, rgba(168, 88, 210, 0.9360119047619048) 83%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+    backgound: rgb(231, 238, 174);
+    background: radial-gradient(circle, rgba(231, 238, 174, 1) 0%, rgba(151, 148, 233, 1) 100%);
+}
+
+.title {
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+main {
+    justify-content: center;
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+video {
+    width: 450px;
+    height: 450px;
+}
+
+div {
+    border-radius: 25px;
+}
+
+.icon {
+
+    width: 20px;
+    height: 20px;
+}
+
+.rodape {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 5px;
+}
